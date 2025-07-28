@@ -1,0 +1,5 @@
+params.spec.requiredKeys.size() == 0 ? true : (
+    params.spec.requiredKeys.all(key, key in object.metadata.labels)
+)
+---
+object.metadata.name.startsWith("my-")

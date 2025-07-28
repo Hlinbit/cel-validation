@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod-1
+  labels:
+    env: prod
+    team: backend
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod-2
+  labels:
+    env: dev
+    team: frontend
